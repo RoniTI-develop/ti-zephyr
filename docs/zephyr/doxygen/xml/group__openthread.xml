@@ -22,7 +22,7 @@
 <para>Registers callbacks which will be called when certain configuration or state changes occur within OpenThread. </para>
         </briefdescription>
         <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000040"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="modules_2openthread_2include_2openthread_8h_1a4178b72288585869e2c941acdc21db57" kindref="member">openthread_state_changed_callback_register</ref> instead.</para>
+<para><xrefsect id="deprecated_1_deprecated000037"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="modules_2openthread_2include_2openthread_8h_1a4178b72288585869e2c941acdc21db57" kindref="member">openthread_state_changed_callback_register</ref> instead.</para>
 </xrefdescription></xrefsect></para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -64,7 +64,7 @@
 <para>Unregisters OpenThread configuration or state changed callbacks. </para>
         </briefdescription>
         <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000041"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="modules_2openthread_2include_2openthread_8h_1ae4ad25613f8eada1a0a29426a2f4a518" kindref="member">openthread_state_changed_callback_unregister</ref> instead.</para>
+<para><xrefsect id="deprecated_1_deprecated000038"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="modules_2openthread_2include_2openthread_8h_1ae4ad25613f8eada1a0a29426a2f4a518" kindref="member">openthread_state_changed_callback_unregister</ref> instead.</para>
 </xrefdescription></xrefsect></para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -137,7 +137,7 @@
 <para>Starts the OpenThread network. </para>
         </briefdescription>
         <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000042"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="modules_2openthread_2include_2openthread_8h_1a558165d2e49e9335649c94ac0be53392" kindref="member">openthread_run</ref> instead.</para>
+<para><xrefsect id="deprecated_1_deprecated000039"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="modules_2openthread_2include_2openthread_8h_1a558165d2e49e9335649c94ac0be53392" kindref="member">openthread_run</ref> instead.</para>
 </xrefdescription></xrefsect></para>
 <para>Depends on active settings: it uses stored network configuration, start joining procedure or uses default network configuration. Additionally when the device is MTD, it sets the SED mode to properly attach the network.</para>
 <para><parameterlist kind="param"><parameteritem>
@@ -168,7 +168,7 @@
 <para>Lock internal mutex before accessing OT API. </para>
         </briefdescription>
         <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000043"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="modules_2openthread_2include_2openthread_8h_1ae3945bc3549118dc5420f9859588282d" kindref="member">openthread_mutex_lock</ref>.</para>
+<para><xrefsect id="deprecated_1_deprecated000040"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="modules_2openthread_2include_2openthread_8h_1ae3945bc3549118dc5420f9859588282d" kindref="member">openthread_mutex_lock</ref>.</para>
 </xrefdescription></xrefsect></para>
 <para>OpenThread API is not thread-safe, therefore before accessing any API function, it&apos;s needed to lock the internal mutex, to prevent the OpenThread thread from preempting the API call.</para>
 <para><parameterlist kind="param"><parameteritem>
@@ -199,7 +199,7 @@
 <para>Try to lock internal mutex before accessing OT API. </para>
         </briefdescription>
         <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000044"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="modules_2openthread_2include_2openthread_8h_1ab5669622dfd83d3a5175fa47325dade3" kindref="member">openthread_mutex_try_lock</ref> instead.</para>
+<para><xrefsect id="deprecated_1_deprecated000041"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="modules_2openthread_2include_2openthread_8h_1ab5669622dfd83d3a5175fa47325dade3" kindref="member">openthread_mutex_try_lock</ref> instead.</para>
 </xrefdescription></xrefsect></para>
 <para>This function behaves like <ref refid="group__openthread_1ga1f702bb5768795bce5561efe457b1028" kindref="member">openthread_api_mutex_lock()</ref> provided that the internal mutex is unlocked. Otherwise, it exists immediately and returns a negative value.</para>
 <para><parameterlist kind="param"><parameteritem>
@@ -247,7 +247,7 @@
 <para>Unlock internal mutex after accessing OT API. </para>
         </briefdescription>
         <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000045"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="modules_2openthread_2include_2openthread_8h_1a420c3321272141f63ea86166b84ec845" kindref="member">openthread_mutex_unlock</ref> instead.</para>
+<para><xrefsect id="deprecated_1_deprecated000042"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="modules_2openthread_2include_2openthread_8h_1a420c3321272141f63ea86166b84ec845" kindref="member">openthread_mutex_unlock</ref> instead.</para>
 </xrefdescription></xrefsect></para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>

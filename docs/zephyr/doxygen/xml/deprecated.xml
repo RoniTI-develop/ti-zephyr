@@ -44,38 +44,38 @@
 <listitem><para><anchor id="deprecated_1_deprecated000035"/>Drivers and L2 SHALL not introduce additional references to this capability and remove existing ones as outlined in #63670.  </para>
 </listitem>
 <varlistentry><term>Global <ref refid="group__net__if_1ga3107524832d30f8d4f00fcc832bd8b72" kindref="member">net_if_ipv4_get_netmask</ref>  (struct <ref refid="structnet__if" kindref="compound">net_if</ref> *iface)</term></varlistentry>
-<listitem><para><anchor id="deprecated_1_deprecated000036"/>Use <ref refid="group__net__if_1gaafc473b7c3f3e32f1ba93dd1f7190fe5" kindref="member">net_if_ipv4_get_netmask_by_addr()</ref> instead. </para>
+<listitem><para><anchor id="deprecated_1_deprecated000043"/>Use <ref refid="group__net__if_1gaafc473b7c3f3e32f1ba93dd1f7190fe5" kindref="member">net_if_ipv4_get_netmask_by_addr()</ref> instead. </para>
 </listitem>
 <varlistentry><term>Global <ref refid="group__net__if_1ga0a8f1d2768ce58d81e2762eb0c0d2444" kindref="member">net_if_ipv4_set_netmask</ref>  (struct <ref refid="structnet__if" kindref="compound">net_if</ref> *iface, const struct <ref refid="structnet__in__addr" kindref="compound">net_in_addr</ref> *netmask)</term></varlistentry>
-<listitem><para><anchor id="deprecated_1_deprecated000037"/>Use <ref refid="group__net__if_1gaa42af45521841ae8265396c89966a2db" kindref="member">net_if_ipv4_set_netmask_by_addr()</ref> instead. </para>
+<listitem><para><anchor id="deprecated_1_deprecated000044"/>Use <ref refid="group__net__if_1gaa42af45521841ae8265396c89966a2db" kindref="member">net_if_ipv4_set_netmask_by_addr()</ref> instead. </para>
 </listitem>
 <varlistentry><term>Global <ref refid="group__net__if_1ga3ef4a2fa9ad1ccb4f5640e9ec6eb2f45" kindref="member">net_if_ipv4_set_netmask_by_index</ref>  (int index, const struct <ref refid="structnet__in__addr" kindref="compound">net_in_addr</ref> *netmask)</term></varlistentry>
-<listitem><para><anchor id="deprecated_1_deprecated000038"/>Use <ref refid="group__net__if_1gaa42af45521841ae8265396c89966a2db" kindref="member">net_if_ipv4_set_netmask_by_addr()</ref> instead. </para>
+<listitem><para><anchor id="deprecated_1_deprecated000045"/>Use <ref refid="group__net__if_1gaa42af45521841ae8265396c89966a2db" kindref="member">net_if_ipv4_set_netmask_by_addr()</ref> instead. </para>
 </listitem>
 <varlistentry><term>File <ref refid="fs_2nvs_8h" kindref="compound">nvs.h</ref>  </term></varlistentry>
 <listitem><para><anchor id="deprecated_1_deprecated000033"/>Please use <ref refid="kvss_2nvs_8h" kindref="compound">zephyr/kvss/nvs.h</ref> instead.</para>
 <para></para>
 </listitem>
 <varlistentry><term>Global <ref refid="group__openthread_1ga1f702bb5768795bce5561efe457b1028" kindref="member">openthread_api_mutex_lock</ref>  (struct openthread_context *ot_context)</term></varlistentry>
-<listitem><para><anchor id="deprecated_1_deprecated000043"/>use <ref refid="modules_2openthread_2include_2openthread_8h_1ae3945bc3549118dc5420f9859588282d" kindref="member">openthread_mutex_lock</ref>. </para>
+<listitem><para><anchor id="deprecated_1_deprecated000040"/>use <ref refid="modules_2openthread_2include_2openthread_8h_1ae3945bc3549118dc5420f9859588282d" kindref="member">openthread_mutex_lock</ref>. </para>
 </listitem>
 <varlistentry><term>Global <ref refid="group__openthread_1ga05c5792a8d2ceaf93336f62760c74862" kindref="member">openthread_api_mutex_try_lock</ref>  (struct openthread_context *ot_context)</term></varlistentry>
-<listitem><para><anchor id="deprecated_1_deprecated000044"/>use <ref refid="modules_2openthread_2include_2openthread_8h_1ab5669622dfd83d3a5175fa47325dade3" kindref="member">openthread_mutex_try_lock</ref> instead. </para>
+<listitem><para><anchor id="deprecated_1_deprecated000041"/>use <ref refid="modules_2openthread_2include_2openthread_8h_1ab5669622dfd83d3a5175fa47325dade3" kindref="member">openthread_mutex_try_lock</ref> instead. </para>
 </listitem>
 <varlistentry><term>Global <ref refid="group__openthread_1ga0c3cb86690f2b1b714ad655b7df23bf3" kindref="member">openthread_api_mutex_unlock</ref>  (struct openthread_context *ot_context)</term></varlistentry>
-<listitem><para><anchor id="deprecated_1_deprecated000045"/>use <ref refid="modules_2openthread_2include_2openthread_8h_1a420c3321272141f63ea86166b84ec845" kindref="member">openthread_mutex_unlock</ref> instead. </para>
+<listitem><para><anchor id="deprecated_1_deprecated000042"/>use <ref refid="modules_2openthread_2include_2openthread_8h_1a420c3321272141f63ea86166b84ec845" kindref="member">openthread_mutex_unlock</ref> instead. </para>
 </listitem>
 <varlistentry><term>Global <ref refid="group__openthread_1ga4674b60779f2fd0adaa9c96afb840265" kindref="member">openthread_start</ref>  (struct openthread_context *ot_context)</term></varlistentry>
-<listitem><para><anchor id="deprecated_1_deprecated000042"/>use <ref refid="modules_2openthread_2include_2openthread_8h_1a558165d2e49e9335649c94ac0be53392" kindref="member">openthread_run</ref> instead. </para>
+<listitem><para><anchor id="deprecated_1_deprecated000039"/>use <ref refid="modules_2openthread_2include_2openthread_8h_1a558165d2e49e9335649c94ac0be53392" kindref="member">openthread_run</ref> instead. </para>
 </listitem>
 <varlistentry><term>Struct <ref refid="structopenthread__state__changed__cb" kindref="compound">openthread_state_changed_cb</ref>  </term></varlistentry>
-<listitem><para><anchor id="deprecated_1_deprecated000039"/>use <ref refid="structopenthread__state__changed__callback" kindref="compound">openthread_state_changed_callback</ref> instead. </para>
+<listitem><para><anchor id="deprecated_1_deprecated000036"/>use <ref refid="structopenthread__state__changed__callback" kindref="compound">openthread_state_changed_callback</ref> instead. </para>
 </listitem>
 <varlistentry><term>Global <ref refid="group__openthread_1ga46471bc0ccdf1f953b81dd9720883327" kindref="member">openthread_state_changed_cb_register</ref>  (struct openthread_context *ot_context, struct <ref refid="structopenthread__state__changed__cb" kindref="compound">openthread_state_changed_cb</ref> *cb)</term></varlistentry>
-<listitem><para><anchor id="deprecated_1_deprecated000040"/>use <ref refid="modules_2openthread_2include_2openthread_8h_1a4178b72288585869e2c941acdc21db57" kindref="member">openthread_state_changed_callback_register</ref> instead. </para>
+<listitem><para><anchor id="deprecated_1_deprecated000037"/>use <ref refid="modules_2openthread_2include_2openthread_8h_1a4178b72288585869e2c941acdc21db57" kindref="member">openthread_state_changed_callback_register</ref> instead. </para>
 </listitem>
 <varlistentry><term>Global <ref refid="group__openthread_1ga89eaabc16f6feb84b61f97c5e5cac764" kindref="member">openthread_state_changed_cb_unregister</ref>  (struct openthread_context *ot_context, struct <ref refid="structopenthread__state__changed__cb" kindref="compound">openthread_state_changed_cb</ref> *cb)</term></varlistentry>
-<listitem><para><anchor id="deprecated_1_deprecated000041"/>use <ref refid="modules_2openthread_2include_2openthread_8h_1ae4ad25613f8eada1a0a29426a2f4a518" kindref="member">openthread_state_changed_callback_unregister</ref> instead. </para>
+<listitem><para><anchor id="deprecated_1_deprecated000038"/>use <ref refid="modules_2openthread_2include_2openthread_8h_1ae4ad25613f8eada1a0a29426a2f4a518" kindref="member">openthread_state_changed_callback_unregister</ref> instead. </para>
 </listitem>
 <varlistentry><term>Global <ref refid="stm32__pwm_8h_1ac73e020f7f8787beaa8ddf7871578c6f" kindref="member">PWM_STM32_COMPLEMENTARY</ref>  </term></varlistentry>
 <listitem><para><anchor id="deprecated_1_deprecated000032"/>Use the PWM complementary <computeroutput><ref refid="stm32__pwm_8h_1a8e4959803792254f90bb31e0454a4249" kindref="member">STM32_PWM_COMPLEMENTARY</ref></computeroutput> flag instead.  </para>

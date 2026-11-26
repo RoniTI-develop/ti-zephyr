@@ -5580,7 +5580,7 @@
 <para>Get IPv4 netmask of an interface. </para>
         </briefdescription>
         <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000036"><xreftitle>Deprecated</xreftitle><xrefdescription><para>Use <ref refid="group__net__if_1gaafc473b7c3f3e32f1ba93dd1f7190fe5" kindref="member">net_if_ipv4_get_netmask_by_addr()</ref> instead.</para>
+<para><xrefsect id="deprecated_1_deprecated000043"><xreftitle>Deprecated</xreftitle><xrefdescription><para>Use <ref refid="group__net__if_1gaafc473b7c3f3e32f1ba93dd1f7190fe5" kindref="member">net_if_ipv4_get_netmask_by_addr()</ref> instead.</para>
 </xrefdescription></xrefsect></para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -5616,7 +5616,7 @@
 <para>Set IPv4 netmask for an interface. </para>
         </briefdescription>
         <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000037"><xreftitle>Deprecated</xreftitle><xrefdescription><para>Use <ref refid="group__net__if_1gaa42af45521841ae8265396c89966a2db" kindref="member">net_if_ipv4_set_netmask_by_addr()</ref> instead.</para>
+<para><xrefsect id="deprecated_1_deprecated000044"><xreftitle>Deprecated</xreftitle><xrefdescription><para>Use <ref refid="group__net__if_1gaa42af45521841ae8265396c89966a2db" kindref="member">net_if_ipv4_set_netmask_by_addr()</ref> instead.</para>
 </xrefdescription></xrefsect></para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -5658,7 +5658,7 @@
 <para>Set IPv4 netmask for an interface index. </para>
         </briefdescription>
         <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000038"><xreftitle>Deprecated</xreftitle><xrefdescription><para>Use <ref refid="group__net__if_1gaa42af45521841ae8265396c89966a2db" kindref="member">net_if_ipv4_set_netmask_by_addr()</ref> instead.</para>
+<para><xrefsect id="deprecated_1_deprecated000045"><xreftitle>Deprecated</xreftitle><xrefdescription><para>Use <ref refid="group__net__if_1gaa42af45521841ae8265396c89966a2db" kindref="member">net_if_ipv4_set_netmask_by_addr()</ref> instead.</para>
 </xrefdescription></xrefsect></para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>

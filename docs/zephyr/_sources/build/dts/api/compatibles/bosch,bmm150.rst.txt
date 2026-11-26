@@ -8,6 +8,6 @@ bosch,bmm150
 The devicetree compatible ``bosch,bmm150`` may be handled by any
 of the following bindings:
 
-- :ref:`dtbinding_bosch_bmm150_i2c`
 - :ref:`dtbinding_bosch_bmm150_spi`
+- :ref:`dtbinding_bosch_bmm150_i2c`
 

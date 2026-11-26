@@ -84,7 +84,7 @@
 <para>OpenThread state change callback. </para>
     </briefdescription>
     <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000039"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="structopenthread__state__changed__callback" kindref="compound">openthread_state_changed_callback</ref> instead.</para>
+<para><xrefsect id="deprecated_1_deprecated000036"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use <ref refid="structopenthread__state__changed__callback" kindref="compound">openthread_state_changed_callback</ref> instead.</para>
 </xrefdescription></xrefsect></para>
 <para>OpenThread state change callback structure</para>
 <para>Used to register a callback in the callback list. As many callbacks as needed can be added as long as each of them are unique pointers of struct <ref refid="structopenthread__state__changed__cb" kindref="compound">openthread_state_changed_cb</ref>. Beware such structure should not be allocated on stack. </para>
